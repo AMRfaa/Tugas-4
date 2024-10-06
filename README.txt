@@ -18,5 +18,11 @@ Link : https://drive.google.com/file/d/1XDzxE6Qb16QSaQ6tyvAj8pEPtFLcEeYA/view?us
 
 		else:
 		  print " matriks A dan B bisa dikalikan "
-		  eksekusi perkalian
+		  for i in range(3):
+	            for j in range(3):
+	              for k in range(3): 
+	                C[i][j] += A[i][k] * B[k][j]
+		print "Hasil perkalian matriks A dan B:"
+		for row in C:
+		    print(row)    
 	 end
