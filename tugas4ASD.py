@@ -30,4 +30,13 @@ if (Kolom_A != Baris_B):
     print ("Matriks A dengan B tidak dapat dikalikan")
 else:
      print ("Matriks A dengan B dapat dikalikan")  
+     for i in range(3):
+        for j in range(3):
+            for k in range(3): 
+               C[i][j] += A[i][k] * B[k][j]
+print()
+# output perkalian matriks
+print("Hasil perkalian matriks A dan B:")
+for row in C:
+    print(row)    
    
