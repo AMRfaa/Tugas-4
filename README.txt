@@ -17,5 +17,6 @@ Link : https://drive.google.com/file/d/1XDzxE6Qb16QSaQ6tyvAj8pEPtFLcEeYA/view?us
 		  print " matriks tidak dapat dikalikan "
 
 		else:
-		  print " matriks A dan B bisa dikalikan " 
+		  print " matriks A dan B bisa dikalikan "
+		  eksekusi perkalian
 	 end
