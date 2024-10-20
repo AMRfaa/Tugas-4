@@ -23,6 +23,6 @@ Link : https://drive.google.com/file/d/1XDzxE6Qb16QSaQ6tyvAj8pEPtFLcEeYA/view?us
 	              for k in range(3): 
 	                C[i][j] += A[i][k] * B[k][j]
 		print "Hasil perkalian matriks A dan B:"
-		for row in C:
-		    print(row)    
+		for baris in C:
+		    print(baris)    
 	 end
