@@ -37,6 +37,6 @@ else:
 print()
 # output perkalian matriks
 print("Hasil perkalian matriks A dan B:")
-for row in C:
-    print(row)    
+for baris in C:
+    print(baris)    
    
